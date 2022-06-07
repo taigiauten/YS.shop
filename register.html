@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+    <header>
+        <!-- mobie menu -->
+        <div class="mobie-menu bg-second">
+            <a href="#" class="mobie-logo">YSshop</a>
+                <span class="mb-menu-toggle" id="mb-menu-toggle">
+                    <i class='bx bx-menu'></i>
+                </span>
+        </div>
+        <!-- end mobie menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- Top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">+0964412716</a>
+                        </li>
+                        <li>
+                            <a href="#">taithangyasuo@gmail.com</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end header -->
+
+        <!-- main header -->
+        <div class="bg-main">
+            <div class="mid-header container">
+                <a href="#" class="logo">YS.shop</a>
+
+                <ul class="user-name">
+                    <li><a href="#" ><i class='bx bx-bell'></i></a></li>
+                    <li><a href="#" ><i class='bx bx-user-circle'></i></a></li>
+                    <li><a href="./product-detail.html" ><i class='bx bx-cart'></i></a></li>   
+                </ul>
+            </div>
+        </div>
+        <!-- end main header -->
+    </header>
+    <fieldset>
+        <legend for="">
+            <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+            
+        </legend>
+        <form action="" method="POST">
+            <div class="form-group">
+                <label for="">Họ tên</label>
+                <input type="text" name="fullname" id="input_fullname" placeholder="Nhập thông tin" field-name=" họ tên!">
+                <p class="error" id="error_fullname"></p>
+            </div>
+            <div class="form-group">
+                <label for="">Gmail</label>
+                <input type="email" name="email" id="input_email"placeholder="Nhập thông tin" field-name=" email!">
+                <p class="error" id="error_email"></p>
+            </div>
+            <div class="form-group">
+                <label for="">Số điện thoại</label>
+                <input type="tel" name="tel" id="input_tel"placeholder="Nhập thông tin" field-name=" số điện thoại!">
+                <p class="error" id="error_tel"></p>
+            </div>
+            <div class="form-group">
+                <label for="">Mật khẩu</label>
+                <input type="password" name="password" id="input_password"placeholder="Nhập thông tin" field-name=" mật khẩu!">
+                <p class="error" id="error_password"></p>
+            </div>
+            <div class="form-group">
+                <label for="">Xác nhận mật khẩu</label>
+                <input type="password" name="password_confirm"placeholder="Nhập thông tin" id="input_password_confirm">
+            </div>
+            <div class="form-group">
+                <label for="">Giới tính</label>
+                <div>
+                    <input type="radio" name="gender" value="1" checked/> Nam <br>
+                    <input type="radio" name="gender" value="2"> Nữ  
+                </div>
+            <div class="form-group">
+                <div class="btn">
+                    <button type="button" class="btn btn-flat btn-hover" onclick="dangkytaikhoan()">Đăng ký</button>
+                </div>
+             
+            </div>
+        </form>
+
+    </fieldset>
+<!-- footer -->
+<footer class="bg-second">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 col-md-6 col-sm-12">
+                <div class="contact">
+                    <h3 class="contact-header">
+                        YS.shop
+                    </h3>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+</footer>
+
+<!-- footer -->
+    <script src="./js/register.js"></script>
+</body>
+</html>
